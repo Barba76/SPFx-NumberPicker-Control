@@ -1,6 +1,8 @@
 # SPFx-NumberPicker-Control
 This is a NumberPicker custom control to be used at the PropertyPane
 
+![example](/numberpicker.gif)
+
 Usage:
 1. Install dependencies with the command **_npm install_**
 2. import the numberPicker.ts file on your SPFx project
