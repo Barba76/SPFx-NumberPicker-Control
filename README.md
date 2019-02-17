@@ -29,9 +29,8 @@ ___
 
 ## Picker Configuration Parameters ##
 
-| Parameter        | Description           | Required  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Parameter        | Description                               | Default | Required  |
+| -------------    |-------------------------------------------| ------- | --------- |
+| applyOnClick     | Apply changes in a button click           | false|  | No        |    
+
 
