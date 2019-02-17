@@ -1,0 +1,105 @@
+$neutralLighter: '[theme:neutralLighter, default:white]';
+$neutralLight: '[theme:neutralLight, default:lightgray]';
+$neutralDark: '[theme:neutralDark, default:darkgray]';
+$black: '[theme:black, default:black]';
+$white: '[theme:white, default:white]';
+$errorText: '[theme:errorText, default:red]';
+
+.number-picker{
+
+    margin: 10px 0;
+    position: relative;
+    height: auto;
+  
+    .wrapper{
+      position: relative;
+      margin: 5px 0;
+      height:31px;
+      width:100%;
+    }
+    .picker{
+      margin: 0;
+      position: absolute;
+      top: 0;
+      height: auto;
+      width: 50px;
+    }
+    
+    .apply-wrapper{
+      width: 50%;
+      height:auto;
+      position: absolute;
+      top: 0;
+      left: 80px;
+    }
+    
+    .apply-wrapper button{
+      font-weight: 600;
+      width:85px;
+      height:34px;
+      font-size:12px;
+    }
+    
+    .wrapper .picker button{
+      margin:0;
+      position:absolute;
+      width:25px;
+      height:17px;
+      display:block;
+    }
+    
+    .wrapper button,
+    .wrapper button:active,
+    .wrapper button:focus{
+      cursor:pointer;
+      border:0;
+      outline:0;
+      background: $neutralLighter;
+      color:$black;
+      &:disabled{
+        background: $neutralLighter;
+        color:$neutralLight;
+      }
+    }
+    
+    .wrapper button:not([disabled]):hover{
+      background:$neutralLight;
+    }
+    
+    .wrapper .up-arrow{
+      top:0;
+      right:-25px;
+    } 
+    .wrapper .down-arrow{
+      bottom:0;
+      right:-25px;
+    } 
+    
+    .wrapper input{
+      border:0;
+      color:$black;
+      background:$white;
+      font-size:16px;
+      text-align:center;
+      width:100%;
+      height:30px;
+      border: 1px solid;
+      border-color: $neutralLight;
+      &:focus{
+        outline:0;
+      }
+    }
+  
+    .description{
+      font-size: 11px;
+      color:$neutralDark;
+    }
+  
+    .error-msg{
+      font-size: 11px;
+      color:$errorText;
+      display: none;
+    }
+  }
+  
+  /* END OF NUMBER PICKER */

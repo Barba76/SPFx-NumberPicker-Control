@@ -1,0 +1,18 @@
+{
+  "name": "spfx-number-picker",
+  "version": "1.0.1",
+  "description": "",
+  "main": "numberPicker.js",
+  "dependencies": {
+    "typescript": "^3.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/sp-webpart-base": "^1.4.1",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "scss": "node-sass --output-style compressed ./scss/numberPicker.module.scss > ./css/numberPicker.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

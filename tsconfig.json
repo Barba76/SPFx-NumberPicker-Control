@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "preserveConstEnums": true,
+        "skipLibCheck": true,
+        "sourceMap": true
+    },
+    "typeRoots": [
+        "./node_modules/@types",
+        "./node_modules/@microsoft"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./"
+    ]
+}
