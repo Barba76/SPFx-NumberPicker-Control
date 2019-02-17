@@ -16,6 +16,9 @@ e.g.
                   max:100,
                   min:1,
                   properties: this.properties
-                }),
-	```
+                }),```
+
+Perform changes:
+a) After a .scss change, compile the .css with the command **_npm run scss_**
+b) After a .ts cange, compile with the command **_tsc_**
 
