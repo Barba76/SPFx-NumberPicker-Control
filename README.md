@@ -11,7 +11,7 @@ e.g.
 	new NumberPicker("picker", {
                   applyOnClick: false,
                   deferredValidationTime: 0,
-                  label: "Picker A",
+                  label: "Picker",
                   description: "This is the number picker control",
                   max:100,
                   min:1,
