@@ -6,8 +6,9 @@ Usage:
 2. import the numberPicker.ts file on your SPFx project
 3. create a new Instance of the numberPicker on the PropertyPaneConfiguration:
 
-e.g:
-new NumberPicker("picker", {
+e.g.
+```python
+	new NumberPicker("picker", {
                   applyOnClick: false,
                   deferredValidationTime: 0,
                   label: "Picker A",
@@ -16,3 +17,5 @@ new NumberPicker("picker", {
                   min:1,
                   properties: this.properties
                 }),
+	```
+
