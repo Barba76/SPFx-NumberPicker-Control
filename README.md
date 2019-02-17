@@ -32,8 +32,8 @@ ___
 | Parameter                  | type | Description                               | Default | Required  |
 | -------------              |------|-------------------------------------------| ------- | --------- |
 | applyOnClick               | boolean |Apply changes in a button click           | false   | No        |
-| deferredValidationTime     | number | Delay (millisseconds) before trigger changes    | 0       | No        |
-| label     | string | the label of the control    |       | Yes       |
+| deferredValidationTime     | number | Delay (milliseconds) before trigger changes    | 0       | No        |
+| label     | string | The label of the control    |       | Yes       |
 | description  | string | A bottom description of the control   |       | No        |
 | max | number | The maximum valid value |    | Yes |
 | min | number | The minimum valid value |    | Yes |
