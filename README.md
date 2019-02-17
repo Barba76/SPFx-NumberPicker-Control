@@ -40,3 +40,5 @@ ___
 | properties | any | The properties object |    | Yes |
 
 
+GitHub: https://github.com/Barba76/SPFx-NumberPicker-Control
+
