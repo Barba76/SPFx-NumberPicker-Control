@@ -25,6 +25,8 @@ a) After a .scss change, compile the .css with the command **_npm run scss_**
 
 b) After a .ts cange, compile with the command **_tsc_**
 
+___
+
 ## Picker Configuration Parameters ##
 
 | Parameter        | Description           | Required  |
