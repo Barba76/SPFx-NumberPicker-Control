@@ -11,7 +11,7 @@ import {NumberPicker} from '{path_to_numberPicker}/numberPicker';
 ```
 3. Create a new NumberPicker Instance on the PropertyPaneConfiguration:
 ```javascript
-	new NumberPicker("picker", {
+	new NumberPicker("{the_target_property}", {
                   applyOnClick: false,
                   deferredValidationTime: 0,
                   label: "Picker",
