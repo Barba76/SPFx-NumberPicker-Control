@@ -39,6 +39,7 @@ ___
 | min | number | The minimum valid value |    | Yes |
 | properties | any | The properties object |    | Yes |
 
+___
 
 GitHub: https://github.com/Barba76/SPFx-NumberPicker-Control
 
