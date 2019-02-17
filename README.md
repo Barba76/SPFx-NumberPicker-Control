@@ -23,7 +23,7 @@ e.g.
 
 a) After a .scss change, compile the .css with the command **_npm run scss_**
 
-b) After a .ts cange, compile with the command **_tsc_**
+b) Recompile the module **_tsc_** after any change
 
 ___
 
