@@ -29,8 +29,9 @@ ___
 
 ## Picker Configuration Parameters ##
 
-| Parameter        | Description                               | Default | Required  |
-| -------------    |-------------------------------------------| ------- | --------- |
-| applyOnClick     | Apply changes in a button click           | false|  | No        |    
+| Parameter                  | type | Description                               | Default | Required  |
+| -------------              |------|-------------------------------------------| ------- | --------- |
+| applyOnClick               | boolean |Apply changes in a button click           | false   | No        |
+| deferredValidationTime     | number | Delay (millisseconds) before trigger changes    | 0       | No        |
 
 
