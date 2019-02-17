@@ -13,7 +13,7 @@ import {NumberPicker} from '{path_to_numberPicker}/numberPicker';
 ```javascript
 items:number;
 ```
-4. Create a new NumberPicker Instance on the PropertyPaneConfiguration:
+4. Create a new NumberPicker Instance on the PropertyPaneConfiguration
 ```javascript
 	new NumberPicker("items", {
                   applyOnClick: false,
