@@ -7,7 +7,7 @@ Usage:
 3. create a new Instance of the numberPicker on the PropertyPaneConfiguration:
 
 e.g.
-```python
+```javascript
 	new NumberPicker("picker", {
                   applyOnClick: false,
                   deferredValidationTime: 0,
