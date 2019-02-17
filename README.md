@@ -19,8 +19,10 @@ e.g.
                 })
 ```
 
-Perform changes:
+### Compile after perform any changes ###
+
 a) After a .scss change, compile the .css with the command **_npm run scss_**
+
 b) After a .ts cange, compile with the command **_tsc_**
 
 ## Picker Configuration Parameters ##
