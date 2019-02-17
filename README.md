@@ -22,7 +22,7 @@ import {NumberPicker} from '{path_to_numberPicker}/numberPicker';
                 })
 ```
 
-### Compile after perform any changes ###
+### Recompile the module after perform any changes ###
 
 a) After a .scss change, compile the .css with the command **_npm run scss_**
 
