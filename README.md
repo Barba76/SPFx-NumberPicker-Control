@@ -9,9 +9,13 @@ Usage:
 ``` javascript
 import {NumberPicker} from '{path_to_numberPicker}/numberPicker';
 ```
-3. Create a new NumberPicker Instance on the PropertyPaneConfiguration:
+3. Define a number type property
 ```javascript
-	new NumberPicker("{the_target_property}", {
+items:number;
+```
+4. Create a new NumberPicker Instance on the PropertyPaneConfiguration:
+```javascript
+	new NumberPicker("items", {
                   applyOnClick: false,
                   deferredValidationTime: 0,
                   label: "Picker",
