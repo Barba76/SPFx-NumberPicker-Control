@@ -5,7 +5,7 @@ This is a NumberPicker custom control to be used at the PropertyPane
 
 Usage:
 1. Install dependencies with the command **_npm install_**
-2. Import the numberPicker.ts file on your SPFx project
+2. Import the numberPicker module on your SPFx project
 3. Create a new NumberPicker Instance on the PropertyPaneConfiguration:
 
 e.g.
