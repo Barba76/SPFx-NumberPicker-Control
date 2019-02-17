@@ -7,7 +7,7 @@ Usage:
 1. Install dependencies with the command **_npm install_**
 2. Import the numberPicker module on your SPFx project
 ``` javascript
-import {NumberPicker} from '{path_to_numberPicker}/numberPicker';
+import {NumberPicker} from 'path_to_numberPicker/numberPicker';
 ```
 3. Define a number type property
 ```javascript
