@@ -16,9 +16,18 @@ e.g.
                   max:100,
                   min:1,
                   properties: this.properties
-                }),```
+                })
+```
 
 Perform changes:
 a) After a .scss change, compile the .css with the command **_npm run scss_**
 b) After a .ts cange, compile with the command **_tsc_**
+
+## Picker Configuration Parameters ##
+
+| Parameter        | Description           | Required  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
